@@ -106,6 +106,19 @@ nav .nav-icon {
   }
 }
 
+@media screen and (min-width: 1048px) {
+  label.logo {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav a {
+    font-size: 17px;
+  }
+}
+
 .banner {
   background: url('../images/bg.jpg') no-repeat;
   background-size: cover;
