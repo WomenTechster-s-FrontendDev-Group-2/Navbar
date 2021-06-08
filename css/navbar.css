@@ -59,7 +59,7 @@ nav .nav-icon {
   display: none;
 }
 
-@media (max-width: 1048px) {
+@media screen and (min-width: 480px) {
   label.logo {
     font-size: 32px;
     padding-left: 60px;

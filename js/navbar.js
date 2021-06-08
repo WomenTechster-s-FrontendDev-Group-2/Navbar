@@ -1,8 +1,8 @@
 function toggleMenu() {
   var menu = document.getElementById('mainNav');
-  if (menu.className === 'none') {
+  if (menu.className === 'hidden') {
     menu.className = 'show';
   } else {
-    menu.className = 'none';
+    menu.className = 'hidden';
   }
 }
