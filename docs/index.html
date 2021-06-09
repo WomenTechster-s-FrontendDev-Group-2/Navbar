@@ -18,21 +18,26 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="navarea">
     <label class="logo">Girls' Learn Tech</label>
     <ul class="hidden" id="mainNav">
+      <li>
+        <a href="#" class="active">Home
+        </a>
+      </li>
+      <li class="dropdown">
+        <a href="">Courses <i class="fa fa-caret-down"></i></a>
 
-      <li>
-        <a href="#" class="active">Home</a>
+        <ul class="dropdown-content">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">Css</a></li>
+          <li><a href="#">Js</a></li>
+        </ul>
       </li>
-      <li>
-        <a href="#">Courses</a>
+      <li><a href="#">About Us</a></li>
       </li>
-      <li>
-        <a href="#">About Us</a>
-      </li>
-      <a href="#">Contact Form</a>
-      </li>
+      <li><a href="#">Contact Form</a></li>
+
     </ul>
     <label class="nav-icon" onclick="toggleMenu()">
       <i class="fas fa-bars"></i>
